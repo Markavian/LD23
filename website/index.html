@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>Minature Worlds - Ludum Dare 23 - Competition Entry</title>
+<style>
+body {
+	background: #DDD;
+	font-family: Trebuchet MS, Verdana, sans-serif;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+}
+a:visited {
+	color: black;
+}
+#content {
+	text-align: center;
+	width: 900px;
+	margin: auto;
+}
+.border { 
+	margin: auto;
+	width: 640px;
+	background: #462;
+	border: solid #333 10px;
+	padding: 4px;
+}
+.mw-title {
+	width: 461px;
+	height: 100px;
+	display: block;
+	margin: auto;
+	background: url('website/miniature_worlds_title.png') no-repeat center center;
+}
+.mw-icons {
+	width: 144px;
+	height: 80px;
+	display: block;
+	margin: auto;
+	background: url('website/miniature_worlds_icons.png') no-repeat center center;
+}
+.mw-title > h1, .mw-icons > h2 {
+	display: none;
+}
+.screenshots {
+	margin: auto;
+	width: 900px;
+	text-align: center;
+}
+.screenshot {
+	width: 400px;
+	margin: 10px;
+	border: 2px solid #555;
+}
+.left {
+	text-align: left;
+}
+</style>
+</head>
+<body>
+<div id="content">
+	<div class="mw-title">
+		<h1>Miniature Worlds</h1>
+	</div>
+	<div class="border">
+		<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+				width="640"
+			height="320"
+			id="haxe"
+			align="middle">
+		<param name="movie" value="MinatureWorlds_LD23_r7.swf"/>
+		<param name="allowScriptAccess" value="always" />
+		<param name="quality" value="high" />
+		<param name="scale" value="noscale" />
+		<param name="salign" value="lt" />
+		<param name="bgcolor" value="#ffffff"/>
+		<embed src="MinatureWorlds_LD23_r7.swf"
+			   bgcolor="#ffffff"
+			   width="640"
+			   height="320"
+			   name="haxe"
+			   quality="high"
+			   align="middle"
+			   allowScriptAccess="always"
+			   type="application/x-shockwave-flash"
+			   pluginspage="http://www.macromedia.com/go/getflashplayer"
+		/>
+		</object>
+	</div>
+	<p><b>AVAIALABLE FOR ANDROID: <a href="../release/LD23-release-r7.apk">LD23-release-r7.apk</a></b></p>
+	<p><b>Controls:</b> Mouse, Left-Click worlds to Harvest.<br/>Left-Click Inventory Items to pick up -> Left-Click worlds to Apply.<br/>Left-Click and Drag items on to each other to combine.</p>
+	<div class="mw-icons">
+		<h2>Instructions</h2>
+	</div>
+	<p>Minature Worlds, presesnted by <a href="http://mkv25.net/games/">mkv25.net games</a>. Ludum Dare 23 Competition Entry - Theme: Tiny World.<br/>Entrant: Markavian, aka John Beech. (Release r7)</p>
+	<p>Produced within 48 hours over the wekend of 21st/22nd of April 2012.</p>
+	
+	<div class="mw-icons">
+		<h2>Tools</h2>
+	</div>
+	<div class="left">
+		<p>As per <a href="http://www.ludumdare.com/compo/rules/">competion rules</a>, all artwork, sound, and music were created by myself (Markavian) using publically available tools.</p>
+		<p>Many thanks to the respective authors and companies behind the software:</o>
+		<p>Music: Atrk-Bu.py - modified with a few custom instruments (source included)</p>
+		<p>Sound Effects: Audacity, microphone, a Table Spoon, and a Pint of Tea. (tink)</p>
+		<p>Graphics: Paint Shop Pro 7</p>
+		<p>Compiler / Language: Haxe NME</p>
+		<p>IDE: FlashDevelop</p>
+		<p>Operating system: Windows 7</p>
+		<p>&nbsp;</p>
+		<p>Full source available here: <a href="../release/LD23_Miniature_Worlds_r7.zip">LD23_Miniature_Worlds_r7.zip</a></p>
+		<p>&nbsp;</p>
+		<p><i>Special thanks to the guys on IRC (afternet.org/#ludumdare #ludumdaredev), and to my facebook friends, for keeping me sane through the weekend!</i></p>
+	</div>
+	
+	<div class="mw-icons">
+		<h2>Screen Shots</h2>
+	</div>
+	<div class="screenshots">
+		<img src="screenshots/s01_title_screen.png" alt="Miniature Worlds - Title Screen" class="screenshot" />
+		<img src="screenshots/s02_first_run.png" alt="Miniature Worlds - First Run" class="screenshot" />
+		<img src="screenshots/s03_inventory.png" alt="Miniature Worlds - Inventory" class="screenshot" />
+		<img src="screenshots/s04_instructions.png" alt="Miniature Worlds - Instructions" class="screenshot" />
+		<img src="screenshots/s05_harvesting.png" alt="Miniature Worlds - Harvesting" class="screenshot" />
+		<img src="screenshots/s06_crafting.png" alt="Miniature Worlds - Crafting" class="screenshot" />
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31100377-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+Tiny World...
+
+Ludum Dare 23.
+
+A world so small it could fit on a thimble.
+Inside a snowglobe.
+A painting in the corner.
+
+Our eyes see more then we realise, but at the depths of our heart lies a world bigger then our imagination can contain.
+
+Game concept:
+
+Present the player with a series of tiny worlds to explore.
+Within each, provide objects that can be used in someway to break between the worlds.
+
+Game concept:
+
+Present the player with a mini-world, enclosed in glass, that they can tend to.
+
+By tending to their world, they can get it to produce resources, which outside of the world can be used to help other worlds or build new ones.
+
+Biome:
+Moisture - Wet <-- Mild --> Dry
+Temperature - Cold <-- Mild --> Hot
+
+
+		WET		MILD	DRY
+ COLD   SNOW	PERMA	ROCK			
+		
+ MILD   WETLAND	GRASS	DESERT							
+		
+ HOT   	JUNGLE	SCRUB	VOLCANO
+ 
+ 
+Every few minutes, worlds produce resources which the player can use outside the world, or on other worlds.
+The player needs to harvest materials at will from each world. 
+ 
+Player actions:
+- Apply Item
+- Craft Item
+- Harvest from World
+ 
+Map features:
+- Trees / Vegetation : Slowly makes climate wet
+- Humans / Village / Town / City : Provides population, increases production time
+- Mine : Increases production time based on climate - pushes climate away from middle
+- Lumber Camp / Saw Mill : Reduces vegetation - produces wood
+- Farm / Mill : Increases food production
+
+Primary materials:
+- Ice (from Snow) (COLD, DRY)
+- Iron (from Perma-frost)
+- Stone (from Rock)
+- Water (from Wetland) (WET)
+- Food (from Grass)
+- Sand (from Desert) (DRY)
+- Steam (from Jungle) (HOT, WET)
+- Copper (from Scrub) 
+- Lava (from Volcano) (HOT, DRY)
+
+Default materials:
+Water, from any WET climate  
+Fire, from any HOT climate
+Cold, from any COLD climate
+
+Secondary materials:
+- Wood (from Vegetation / Lumber Camp / Saw Mill)
+- Humans (from Village / Town / City)
+- Glass (from Sand)
+
+Craftable items: (can then be applied to worlds)
+- Copper Hammer (Wood x5 + Copper x5)
+- Iron Hammer (Wood x5 + Iron x5)
+- Tools (Wood + Iron), (Wood + Copper)
+- Village (Humans + Food + Stone)
+- Town (Village, Food x20, Stone x5, Wood x5, Iron x5)
+- City (Town, Food x50, Stone x20, Sand x5, Iron x20, Copper x5, Wood x10)
+- New World (Glass x20, Rock x20, Water x20, Fire x20)
+- Lumber Camp (Humans, Wood, Stone)
+- Saw Mill (Humans, Tools + Iron x5)
+- Meteorite (Fire + Stone), (Lava)
+- Sun (Lava x10 + Fire x10)
+- Moon (Rock x10 + Ice x 10)
+- Flood (Water x10)
+- Humans (Humans + Humans)
+- Glass (Sand + Sand + Fire)
+- Fire (Lava)
+- Lava (Fire + Rock)
+- Ice (Cold + Water)
+- Farm (Humans + Wood + Stone)
+- Mill (Humans + Tools + Stone x5 + Wood x5)
+
+

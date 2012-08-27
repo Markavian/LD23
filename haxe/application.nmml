@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- metadata, make sure 'package' is at least 2 segments (ie. com.myproject) -->
+	<app file="LD23" title="LD23" main="net.mkv25.ld23.Entry" package="net.mkv25.ld23" 
+		version="1.0.0" company="John Beech" />
+		
+	<!-- output -->
+	<window width="640" height="320" fps="60" orientation="portrait" resizable="true" />
+	<set name="BUILD_DIR" value="bin" />
+	
+	<!-- classpath, haxe libs -->
+	<classpath name="src" />
+	<haxelib name="nme" />
+    <haxelib name="actuate" />
+	
+	<!-- assets -->
+	<icon name="assets/nme.svg" />
+	<assets path="assets" include="*" exclude="nme.svg" />
+	
+	<!-- DLLs -->
+	<ndll name="std" />
+	<ndll name="regexp" />
+	<ndll name="zlib" />
+	<ndll name="nme" haxelib="nme" />
+	
+	<!-- Windows app: hide console -->
+	<!--<setenv name="no_console" value="1" />-->
+</project>
