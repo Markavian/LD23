@@ -1,1 +1,1 @@
-Copyright 2012 John Beech, aka Markavian
+Copyright 2012: John Beech, aka Markavian
