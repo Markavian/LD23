@@ -21,6 +21,7 @@
   <build>
     <option directives="" />
     <option flashStrict="False" />
+    <option noInlineOnDebug="False" />
     <option mainClass="net.mkv25.ld23.Entry" />
     <option enabledebug="True" />
     <option additional="" />
@@ -50,7 +51,7 @@
   <options>
     <option showHiddenPaths="False" />
     <option testMovie="Custom" />
-    <option testMovieCommand="flash" />
+    <option testMovieCommand="" />
   </options>
   <!-- Plugin storage -->
   <storage />
